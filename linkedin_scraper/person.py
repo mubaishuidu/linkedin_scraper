@@ -204,7 +204,8 @@ class Person(Scraper):
                     location=location,
                     description=description,
                     institution_name=company,
-                    linkedin_url=company_linkedin_url
+                    linkedin_url=company_linkedin_url,
+                    all_time_info = work_times
                 )
                 self.add_experience(experience)
 
