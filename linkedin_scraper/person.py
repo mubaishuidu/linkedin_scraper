@@ -153,7 +153,7 @@ class Person(Scraper):
                 work_times = ""
                 location = ""
 
-
+            print(work_times)
             times = work_times.split("·")[0].strip() if work_times else ""
             duration = work_times.split("·")[1].strip() if len(work_times.split("·")) > 1 else None
 
